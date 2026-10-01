@@ -1,50 +1,16 @@
-<div align="center">
-
-```text
-                     .--.       
-                .-"    "-.    
-              /_        _\   
-             /  `.____.'  \  
-            /  (______)  \ 
-           /              \ 
-          /________________\ 
-              |      |      
-              |      |      
-              |______|      
-                 ||          
-              ___||___       
-             /________\      
-```
-
-</div>
-
-```text
-p4Rd0x-zuD@github
------------------
-OS: Arch Linux
-Host: GitHub Profile
-Uptime: 24/7 Building
-Kernel: Curiosity x86_64
-Packages: Bots, Automations, Dashboards
-Shell: /bin/bash
-WM: Obsidian Mindset
-CPU: Autonomy (8 cores)
-GPU: Creativity
-Memory: 16GB Curiosity Cache
-
-Motivation: Curiosidad, iniciativa, autonomía, creatividad y mentalidad de ingeniero.
-Achievement: 3° Lugar Nacional - Ciberseguridad (SenaSoft) | Graduado 01 SEP 2026
-Role: Tecnólogo en Redes de Datos
-
-Projects: whatsapp-agents | dashboards-cierre-mes | shodan-automation | daily-log
-
-Contact: pardojulian189@gmail.com
-```
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="light_mode.svg" />
+  <img alt="Julián Pardo's GitHub profile" src="dark_mode.svg" />
+</picture>
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=p4Rd0x-zuD&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true" height="140"/>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=p4Rd0x-zuD&layout=compact&theme=github_dark&hide_border=true" height="140"/>
-  <img src="https://streak-stats.demolab.com?user=p4Rd0x-zuD&theme=github-dark&hide_border=true" height="140"/>
+</div>
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=p4Rd0x-zuD&theme=github-dark&hide_border=true" alt="GitHub Streak"/>
 </div>
 
 <div align="center">
