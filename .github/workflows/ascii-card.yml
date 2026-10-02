@@ -18,6 +18,7 @@ jobs:
       - uses: hu553in/ascii-profile-card@v1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ascii-card
           config: |
             login: p4Rd0x-zuD
             uptimeStart: 2025-03-10
