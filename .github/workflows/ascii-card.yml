@@ -1,0 +1,95 @@
+name: ASCII profile card
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: '0 4 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  card:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: hu553in/ascii-profile-card@v1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          config: |
+            login: p4Rd0x-zuD
+            uptimeStart: 2025-03-10
+
+            art:
+              seed: daily
+              width: 480
+              columns: 48
+              rows: 20
+              scale: 2.0
+              warp: 1.5
+              bands: 3.0
+              contrast: 2.4
+              octaves: 3
+
+            ascii:
+              flags: []
+
+            card:
+              align: left
+              lowercase: false
+              lines:
+                - { type: header, text: 'Julián Andrés Pardo Hurtado' }
+                - { type: kv, key: Role, value: 'Tecnólogo en Redes de Datos' }
+                - { type: kv, key: Mindset, value: 'Curiosidad, iniciativa, autonomía, creatividad y mentalidad de ingeniero' }
+                - { type: kv, key: Focus, value: 'IA Agéntica · Automatizaciones · APIs · n8n' }
+                - { type: blank }
+                - { type: section, title: Skills }
+                - { type: kv, key: Red, value: 'VLAN · Routing · Antenas' }
+                - { type: kv, key: IA/Auto, value: 'n8n · Agentes LLM · Webhooks · Razonamiento' }
+                - { type: kv, key: DevOps/Data, value: 'Python · Docker · PostgreSQL · Bash · Linux · Git' }
+                - { type: kv, key: Security, value: 'OSINT · Shodan · 3° Lugar Nacional Ciberseguridad (SenaSoft)' }
+                - { type: blank }
+                - { type: section, title: Proyectos Destacados }
+                - { type: kv, key: WhatsApp Agents, value: 'Bots que asesoran, razonan, toman pedidos, agendan y consultan BD' }
+                - { type: kv, key: Dashboards, value: 'Excel inentendible → Dashboard limpio, original y amigable' }
+                - { type: kv, key: Shodan Auto, value: 'Cron 07:00 AM · Listado automático de IPs públicas' }
+                - { type: kv, key: daily-log, value: 'Bitácora de aprendizaje: TILs, notas y experimentos' }
+                - { type: blank }
+                - { type: section, title: Contact }
+                - { type: kv, key: Email, value: 'pardojulian189@gmail.com' }
+                - { type: kv, key: GitHub, value: 'github.com/p4Rd0x-zuD' }
+
+            layout:
+              charWidthPx: 9.5
+              columnGapPx: 20
+              cornerRadiusPx: 12
+              fontFamily: "'JetBrains Mono', 'Cascadia Code', Consolas, monospace"
+              fontSizePx: 14
+              paddingPx: 16
+              rowHeightPx: 18
+              ruleWidth: 48
+              valueColumn: 24
+
+            output:
+              dark: dark_mode.svg
+              light: light_mode.svg
+
+            themes:
+              dark:
+                background: '#161b22'
+                text: '#c9d1d9'
+                key: '#39FF14'
+                value: '#a5d6ff'
+                dots: '#616e7f'
+                added: '#3fb950'
+                deleted: '#f85149'
+              light:
+                background: '#f6f8fa'
+                text: '#24292f'
+                key: '#116329'
+                value: '#0a3069'
+                dots: '#9ba3ae'
+                added: '#1a7f37'
+                deleted: '#cf222e'
