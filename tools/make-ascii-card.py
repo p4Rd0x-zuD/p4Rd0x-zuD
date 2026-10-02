@@ -14,7 +14,7 @@ Uso:
 import argparse, os, subprocess
 from PIL import Image, ImageOps, ImageFilter, ImageEnhance
 
-BG, TITLE, KEY, VAL, DOTS = "#161b22", "#c9d1d9", "#39FF14", "#a5d6ff", "#616e7f"
+BG, TITLE, KEY, VAL, DOTS = "#0d1117", "#c9d1d9", "#39FF14", "#a5d6ff", "#616e7f"
 FONT = "'JetBrains Mono','Cascadia Code','DejaVu Sans Mono',Consolas,monospace"
 FS = 14.0
 CELL_W = FS * 0.601          # ancho de una celda monoespaciada (columna de texto)
@@ -88,8 +88,9 @@ def build(args):
         art = art_chars(im, args.cols)
         art_w, art_h = args.cols * CELL_W, len(art) * FS
         for i, ln in enumerate(art):
-            parts.append(f'<text class="a" x="{PAD}" y="{PAD + FS * 0.86 + i * FS:.1f}" '
-                         f'style="animation-delay:{0.05 + i * 0.04:.2f}s">{esc(ln)}</text>')
+            parts.append(f'<text opacity="1" x="{PAD}" y="{PAD + FS * 0.86 + i * FS:.1f}">'
+                         f'<animate attributeName="opacity" from="0" to="1" '
+                         f'begin="{0.05 + i * 0.04:.2f}s" dur="0.45s" fill="freeze"/>{esc(ln)}</text>')
     else:
         grid = art_blocks(im, args.cols, args.levels)
         rows_px = len(grid)
@@ -107,8 +108,9 @@ def build(args):
                         f"h{(x1 - x0) * px:.1f}v{px:.1f}h-{(x1 - x0) * px:.1f}z")
             delay = 0.05 + (b // per) * 0.07
             for lvl, segs in sorted(by_lvl.items()):
-                parts.append(f'<path class="a" style="animation-delay:{delay:.2f}s" '
-                             f'fill="{pal[lvl]}" d="{"".join(segs)}"/>')
+                parts.append(f'<path opacity="1" fill="{pal[lvl]}" d="{"".join(segs)}">'
+                             f'<animate attributeName="opacity" from="0" to="1" '
+                             f'begin="{delay:.2f}s" dur="0.45s" fill="freeze"/></path>')
 
     # columna de información
     info_x = PAD + art_w + 26
@@ -119,28 +121,29 @@ def build(args):
         if kind == "kv":
             k, v = r
             dots = "." * max(1, int((9 * CELL_W - len(k) * CELL_W) / CELL_W))
-            parts.append(f'<text class="t" style="animation-delay:{d:.2f}s" x="{info_x:.0f}" '
-                         f'y="{ty + FS * 0.9:.0f}"><tspan fill="{KEY}" font-weight="700">{esc(k)}</tspan>'
+            parts.append(f'<text opacity="1" x="{info_x:.0f}" '
+                         f'y="{ty + FS * 0.9:.0f}"><animate attributeName="opacity" from="0" to="1" '
+                         f'begin="{d:.2f}s" dur="0.45s" fill="freeze"/>'
+                         f'<tspan fill="{KEY}" font-weight="700">{esc(k)}</tspan>'
                          f'<tspan fill="{DOTS}">{dots}</tspan><tspan fill="{VAL}"> {esc(v)}</tspan></text>')
             est = max(est, (len(k) + len(dots) + 1 + len(v)) * CELL_W)
         else:
             big = kind == "head"
             extra = ' font-size="15" font-weight="700"' if big else ""
-            parts.append(f'<text class="t" style="animation-delay:{d:.2f}s" x="{info_x:.0f}" '
-                         f'y="{ty + FS * 0.9:.0f}" fill="{TITLE if big else DOTS}"'
-                         f'{extra}>{esc(r[0])}</text>')
+            parts.append(f'<text opacity="1" x="{info_x:.0f}" '
+                         f'y="{ty + FS * 0.9:.0f}" fill="{TITLE if big else DOTS}"{extra}>'
+                         f'<animate attributeName="opacity" from="0" to="1" '
+                         f'begin="{d:.2f}s" dur="0.45s" fill="freeze"/>{esc(r[0])}</text>')
             est = max(est, len(r[0]) * CELL_W)
         ty += FS * 1.5
 
     W = info_x + est + PAD
     H = max(PAD * 2 + art_h, ty + PAD) + 6
-    style = ('.a,.t{opacity:0;animation:fi .45s ease-out forwards}'
-             '@keyframes fi{from{opacity:0}to{opacity:1}}'
-             '.cur{animation:bl 1.15s steps(1) infinite}'
-             '@keyframes bl{0%,49%{opacity:1}50%,100%{opacity:0}}'
-             f'text{{font-family:{FONT};font-size:{FS}px;white-space:pre}}')
-    cursor = (f'<rect class="cur" x="{info_x + est - CELL_W:.0f}" y="{ty - FS * 1.35:.0f}" '
-              f'width="{CELL_W:.1f}" height="{FS * 1.0:.0f}" fill="{KEY}"/>')
+    style = f'text{{font-family:{FONT};font-size:{FS}px;white-space:pre}}'
+    cursor = (f'<rect opacity="1" x="{info_x + est - CELL_W:.0f}" y="{ty - FS * 1.35:.0f}" '
+              f'width="{CELL_W:.1f}" height="{FS * 1.0:.0f}" fill="{KEY}">'
+              f'<animate attributeName="opacity" values="1;0;1" dur="1.2s" '
+              f'begin="1.4s" repeatCount="indefinite"/></rect>')
     return (f'<svg xmlns="http://www.w3.org/2000/svg" width="{W:.0f}" height="{H:.0f}" '
             f'viewBox="0 0 {W:.0f} {H:.0f}" role="img" aria-label="@p4Rd0x-zuD">\n'
             f'<style>{style}</style>\n<rect width="{W:.0f}" height="{H:.0f}" rx="12" fill="{BG}"/>\n'
@@ -169,6 +172,6 @@ if __name__ == "__main__":
         slug = a.box.replace(".", "").replace(",", "_") + ("_inv" if a.invert else "")
         png = f"/tmp/ghprof/card_{a.variant}_{a.cols}_{slug}.png"
         tmp = "/tmp/ghprof/_static.svg"
-        open(tmp, "w").write(svg.replace("opacity:0;animation", "opacity:1;animation"))
+        open(tmp, "w").write(svg)
         subprocess.run(["rsvg-convert", "-b", BG, "-o", png, tmp], check=True)
         print("preview:", png)
