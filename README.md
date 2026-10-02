@@ -2,7 +2,11 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7b2ff7,50:ff2d95,100:00e5ff&height=190&section=header&text=JULIAN%20ANDRES%20PARDO%20HURTADO&fontColor=ffffff&fontSize=38&fontAlignY=38&desc=Tecn%C3%B3logo%20en%20Redes%20de%20Datos%20%C2%B7%20IA%20Ag%C3%A9ntica%20%C2%B7%20Automatizaciones&descSize=18&descAlignY=60&animation=fadeIn" alt="banner" />
 
-<img src="assets/ascii-avatar.svg" width="820" alt="p4Rd0x-zuD" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/ascii-avatar-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/ascii-avatar-light.svg" />
+  <img src="assets/ascii-avatar-dark.svg" width="820" alt="p4Rd0x-zuD" />
+</picture>
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=900&color=C9D1FF&center=true&vCenter=true&width=560&lines=Tecn%C3%B3logo+en+Redes+de+Datos+%F0%9F%8C%90;IA+Ag%C3%A9ntica+%C2%B7+n8n+%C2%B7+APIs+%C2%B7+Webhooks;Automatizo+lo+que+otros+hacen+a+mano+%F0%9F%A4%96" alt="typing" />
 
@@ -11,6 +15,25 @@
 [![Email](https://img.shields.io/badge/Email-D14D3B?style=for-the-badge&logo=gmail&logoColor=white)](mailto:pardojulian189@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-p4Rd0x--zuD-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/p4Rd0x-zuD)
 [![Open to Work](https://img.shields.io/badge/OPEN%20TO%20WORK-39FF14?style=for-the-badge&logo=gameboy&logoColor=black)](mailto:pardojulian189@gmail.com)
+
+</div>
+
+---
+
+## 🧭 Sobre mí
+
+Soy **Julián Pardo**: **Tecnólogo en Redes de Datos** y **camino a Ingeniero en Redes / Sistemas**. Soy curioso por naturaleza — no puedo usar algo sin preguntarme **cómo carajos funciona**. Me pasa con un mensaje de WhatsApp que le llega a alguien en la China igual que con un bot que decide qué responder: termino metido en **ingeniería inversa** por gusto.
+
+Descubrí la **IA agéntica** y me cambió la forma de trabajar: hoy agarro procesos manuales y caóticos (exceles imposibles, respuestas repetitivas, consultas eternas) y los convierto en **agentes, bots y automatizaciones** que piensan, responden y entregan solos.
+
+> No escribo código desde cero: le doy el trabajo pesado a la IA. **Herramientas, lógica y resultados** — eso sí lo entiendo perfecto.
+
+<div align="center">
+
+![Español](https://img.shields.io/badge/Espa%C3%B1ol-Nativo-7b2ff7?style=for-the-badge)
+![Inglés técnico](https://img.shields.io/badge/Ingl%C3%A9s%20T%C3%A9cnico-leo%20documentaci%C3%B3n%2C%20papers%20y%20memes-00e5ff?style=for-the-badge)
+
+<sub>Conversación y gramática: en proceso 📖</sub>
 
 </div>
 
@@ -98,7 +121,7 @@ No son bots que solo responden "hola". Son agentes que **asesoran, razonan, toma
 
 ### 📊 Dashboard de Cierres de Mes
 
-Agarro el **excel inentendible que arroja Gerencia** y lo convierto en un dashboard limpio, original y amigable: gráficas, filtros, todo al instante. De terror contable a experiencia de usuario.
+Agarro el **excel incomprensible que arroja Gerencia** y lo convierto en un dashboard limpio, original y amigable: gráficas, filtros, todo al instante. De terror contable a experiencia de usuario.
 
 **Stack:** `Visualización` · `Scripts` · `Reporting`
 
