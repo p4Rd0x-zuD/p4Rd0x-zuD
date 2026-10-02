@@ -41,26 +41,18 @@ jobs:
               align: left
               lowercase: false
               lines:
-                - { type: header, text: 'Julián Andrés Pardo Hurtado' }
+                - { type: header, text: 'p4Rd0x-zuD@github' }
+                - { type: kv, key: Name, value: 'Julian Andres Pardo Hurtado' }
                 - { type: kv, key: Role, value: 'Tecnólogo en Redes de Datos' }
-                - { type: kv, key: Mindset, value: 'Curiosidad, iniciativa, autonomía, creatividad y mentalidad de ingeniero' }
+                - { type: kv, key: Uptime, value: '{uptime}' }
+                - { type: blank }
+                - { type: section, title: Info }
+                - { type: kv, key: Mindset, value: 'Curiosity, Initiative, Autonomy & Engineering Mindset' }
                 - { type: kv, key: Focus, value: 'IA Agéntica · Automatizaciones · APIs · n8n' }
+                - { type: kv, key: Achievement, value: '3° Lugar Nacional - Ciberseguridad (SenaSoft)' }
+                - { type: kv, key: Graduation, value: 'Graduado 01 SEP 2026' }
                 - { type: blank }
-                - { type: section, title: Skills }
-                - { type: kv, key: Red, value: 'VLAN · Routing · Antenas' }
-                - { type: kv, key: IA/Auto, value: 'n8n · Agentes LLM · Webhooks · Razonamiento' }
-                - { type: kv, key: DevOps/Data, value: 'Python · Docker · PostgreSQL · Bash · Linux · Git' }
-                - { type: kv, key: Security, value: 'OSINT · Shodan · 3° Lugar Nacional Ciberseguridad (SenaSoft)' }
-                - { type: blank }
-                - { type: section, title: Proyectos Destacados }
-                - { type: kv, key: WhatsApp Agents, value: 'Bots que asesoran, razonan, toman pedidos, agendan y consultan BD' }
-                - { type: kv, key: Dashboards, value: 'Excel inentendible → Dashboard limpio, original y amigable' }
-                - { type: kv, key: Shodan Auto, value: 'Cron 07:00 AM · Listado automático de IPs públicas' }
-                - { type: kv, key: daily-log, value: 'Bitácora de aprendizaje: TILs, notas y experimentos' }
-                - { type: blank }
-                - { type: section, title: Contact }
-                - { type: kv, key: Email, value: 'pardojulian189@gmail.com' }
-                - { type: kv, key: GitHub, value: 'github.com/p4Rd0x-zuD' }
+                - { type: kv, key: Contact, value: 'pardojulian189@gmail.com' }
 
             layout:
               charWidthPx: 9.5
@@ -71,7 +63,7 @@ jobs:
               paddingPx: 16
               rowHeightPx: 18
               ruleWidth: 48
-              valueColumn: 24
+              valueColumn: 20
 
             output:
               dark: dark_mode.svg
