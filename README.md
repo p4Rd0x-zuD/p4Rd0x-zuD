@@ -1,7 +1,7 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="light_mode.svg" />
-  <img alt="Julián Pardo's GitHub profile" src="dark_mode.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/p4Rd0x-zuD/p4Rd0x-zuD/ascii-card/dark_mode.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/p4Rd0x-zuD/p4Rd0x-zuD/ascii-card/light_mode.svg" />
+  <img alt="Julián Pardo's GitHub profile" src="https://raw.githubusercontent.com/p4Rd0x-zuD/p4Rd0x-zuD/ascii-card/dark_mode.svg" />
 </picture>
 
 <div align="center">
@@ -16,5 +16,5 @@
 <div align="center">
   <img src="https://raw.githubusercontent.com/p4Rd0x-zuD/p4Rd0x-zuD/output/github-snake-dark.svg" alt="Snake"/>
   <br/>
-  <img src="https://komarev.com/ghpvc/?username=p4Rd0x-zuD&style=flat-square&color=39ff14" alt="Visitors"/>
+  <img src="https://komarev.com/ghpvc/?username=p4Rd0x-zuD&style=flat-square&color=39FF14" alt="Visitors"/>
 </div>
