@@ -1,8 +1,8 @@
-<div align="center">
-  <a href="https://github.com/p4Rd0x-zuD">
-    <img src="https://github.com/p4Rd0x-zuD/p4Rd0x-zuD/blob/main/dark_mode.svg" alt="Profile" width="820">
-  </a>
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/p4Rd0x-zuD/p4Rd0x-zuD/ascii-card/dark_mode.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/p4Rd0x-zuD/p4Rd0x-zuD/ascii-card/light_mode.svg" />
+  <img alt="Julián Pardo's GitHub profile" src="https://raw.githubusercontent.com/p4Rd0x-zuD/p4Rd0x-zuD/ascii-card/dark_mode.svg" />
+</picture>
 
 ## Habilidades
 
