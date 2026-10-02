@@ -8,7 +8,11 @@
   <img src="assets/ascii-avatar-dark.svg" width="820" alt="p4Rd0x-zuD" />
 </picture>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=900&color=C9D1FF&center=true&vCenter=true&width=560&lines=Tecn%C3%B3logo+en+Redes+de+Datos+%F0%9F%8C%90;IA+Ag%C3%A9ntica+%C2%B7+n8n+%C2%B7+APIs+%C2%B7+Webhooks;Automatizo+lo+que+otros+hacen+a+mano+%F0%9F%A4%96" alt="typing" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=900&color=C9D1FF&center=true&vCenter=true&width=560&lines=Tecn%C3%B3logo+en+Redes+de+Datos+%F0%9F%8C%90;IA+Ag%C3%A9ntica+%C2%B7+n8n+%C2%B7+APIs+%C2%B7+Webhooks;Automatizo+lo+que+otros+hacen+a+mano+%F0%9F%A4%96" />
+  <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=900&color=0A3069&center=true&vCenter=true&width=560&lines=Tecn%C3%B3logo+en+Redes+de+Datos+%F0%9F%8C%90;IA+Ag%C3%A9ntica+%C2%B7+n8n+%C2%B7+APIs+%C2%B7+Webhooks;Automatizo+lo+que+otros+hacen+a+mano+%F0%9F%A4%96" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=900&color=C9D1FF&center=true&vCenter=true&width=560&lines=Tecn%C3%B3logo+en+Redes+de+Datos+%F0%9F%8C%90;IA+Ag%C3%A9ntica+%C2%B7+n8n+%C2%B7+APIs+%C2%B7+Webhooks;Automatizo+lo+que+otros+hacen+a+mano+%F0%9F%A4%96" alt="typing" />
+</picture>
 
 <br/>
 
@@ -190,7 +194,11 @@ Mi bitácora diaria de aprendizaje: TILs, notas y pequeños experimentos. El pod
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/p4Rd0x-zuD/p4Rd0x-zuD/output/github-snake-dark.svg" alt="snake" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/p4Rd0x-zuD/p4Rd0x-zuD/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/p4Rd0x-zuD/p4Rd0x-zuD/output/github-snake-light.svg" />
+  <img src="https://raw.githubusercontent.com/p4Rd0x-zuD/p4Rd0x-zuD/output/github-snake-dark.svg" alt="snake" />
+</picture>
 
 </div>
 
