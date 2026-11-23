@@ -34,8 +34,8 @@ Trabajo en redes e infraestructura —enlaces inalámbricos de hasta **24 km**, 
 ### 🗂️ Proyectos
 
 - **Bots de WhatsApp** — agentes que asesoran, toman pedidos, agendan y consultan la BD `n8n · LLM · APIs`
-- **Dashboards de cierre de mes** — de un Excel imposible a gráficas y filtros
-- **Automatización Shodan** — reconocimiento diario a las 7:00 AM
+- **Dashboards y reportes** — datos dispersos convertidos en tableros claros con gráficas y filtros
+- **Servidor propio administrado desde Telegram** — Linux con hardening, SSH por claves y firewall
 - **daily-log** — TILs y notas: [repo](https://github.com/p4Rd0x-zuD/daily-log)
 
 ### 🏆 Formación
