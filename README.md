@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7b2ff7,50:ff2d95,100:00e5ff&height=190&section=header&text=JULIAN%20ANDRES%20PARDO%20HURTADO&fontColor=ffffff&fontSize=38&fontAlignY=38&desc=Tecn%C3%B3logo%20en%20Redes%20de%20Datos%20%C2%B7%20IA%20Ag%C3%A9ntica%20%C2%B7%20Automatizaciones&descSize=18&descAlignY=60&animation=fadeIn" alt="banner" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7b2ff7,50:ff2d95,100:00e5ff&height=190&section=header&text=JULIAN%20ANDRES%20PARDO%20HURTADO&fontColor=ffffff&fontSize=38&fontAlignY=38&desc=Tecn%C3%B3logo%20en%20Redes%20de%20Datos%20%C2%B7%20Infraestructura%20%C2%B7%20IA%20Ag%C3%A9ntica&descSize=18&descAlignY=60&animation=fadeIn" alt="banner" />
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/ascii-avatar-dark.svg" />
@@ -9,16 +9,17 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=900&color=C9D1FF&center=true&vCenter=true&width=560&lines=Tecn%C3%B3logo+en+Redes+de+Datos+%F0%9F%8C%90;IA+Ag%C3%A9ntica+%C2%B7+n8n+%C2%B7+APIs+%C2%B7+Webhooks;Automatizo+lo+que+otros+hacen+a+mano+%F0%9F%A4%96" />
-  <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=900&color=0A3069&center=true&vCenter=true&width=560&lines=Tecn%C3%B3logo+en+Redes+de+Datos+%F0%9F%8C%90;IA+Ag%C3%A9ntica+%C2%B7+n8n+%C2%B7+APIs+%C2%B7+Webhooks;Automatizo+lo+que+otros+hacen+a+mano+%F0%9F%A4%96" />
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=900&color=C9D1FF&center=true&vCenter=true&width=560&lines=Tecn%C3%B3logo+en+Redes+de+Datos+%F0%9F%8C%90;IA+Ag%C3%A9ntica+%C2%B7+n8n+%C2%B7+APIs+%C2%B7+Webhooks;Automatizo+lo+que+otros+hacen+a+mano+%F0%9F%A4%96" alt="typing" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=900&color=C9D1FF&center=true&vCenter=true&width=620&lines=Tecn%C3%B3logo+en+Redes+de+Datos;Antenas+punto+a+punto+%C2%B7+Servidores+Linux+%C2%B7+Cloud;IA+ag%C3%A9ntica%3A+agentes%2C+APIs+y+automatizaciones" />
+  <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=900&color=0A3069&center=true&vCenter=true&width=620&lines=Tecn%C3%B3logo+en+Redes+de+Datos;Antenas+punto+a+punto+%C2%B7+Servidores+Linux+%C2%B7+Cloud;IA+ag%C3%A9ntica%3A+agentes%2C+APIs+y+automatizaciones" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=900&color=C9D1FF&center=true&vCenter=true&width=620&lines=Tecn%C3%B3logo+en+Redes+de+Datos;Antenas+punto+a+punto+%C2%B7+Servidores+Linux+%C2%B7+Cloud;IA+ag%C3%A9ntica%3A+agentes%2C+APIs+y+automatizaciones" alt="typing" />
 </picture>
 
 <br/>
 
 [![Email](https://img.shields.io/badge/Email-D14D3B?style=for-the-badge&logo=gmail&logoColor=white)](mailto:pardojulian189@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-p4Rd0x--zuD-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/p4Rd0x-zuD)
-[![Open to Work](https://img.shields.io/badge/OPEN%20TO%20WORK-39FF14?style=for-the-badge&logo=gameboy&logoColor=black)](mailto:pardojulian189@gmail.com)
+[![Portafolio](https://img.shields.io/badge/PORTAFOLIO-7b2ff7?style=for-the-badge&logo=googlechrome&logoColor=white)](https://p4rd0x-zud.github.io)
+[![English](https://img.shields.io/badge/ENGLISH%20VERSION-00e5ff?style=for-the-badge&logoColor=black)](README.en.md)
 
 </div>
 
@@ -26,81 +27,83 @@
 
 ## 🧭 Sobre mí
 
-Soy **Julián Pardo**: **Tecnólogo en Redes de Datos** y **camino a Ingeniero en Redes / Sistemas**. Soy curioso por naturaleza — no puedo usar algo sin preguntarme **cómo carajos funciona**. Me pasa con un mensaje de WhatsApp que le llega a alguien en la China igual que con un bot que decide qué responder: termino metido en **ingeniería inversa** por gusto.
+Soy **Tecnólogo en Redes de Datos** y voy camino a ingeniero. Trabajo en **redes e infraestructura** y mi fuerte es **automatizar con IA**: convertir procesos manuales y caóticos en agentes y bots que hacen el trabajo repetitivo.
 
-Descubrí la **IA agéntica** y me cambió la forma de trabajar: hoy agarro procesos manuales y caóticos (exceles imposibles, respuestas repetitivas, consultas eternas) y los convierto en **agentes, bots y automatizaciones** que piensan, responden y entregan solos.
+Soy curioso por defecto —no puedo usar algo sin preguntarme cómo funciona— y bastante recursivo: cuando no hay camino claro, lo improviso. Mientras dependa de mí, la solución aparece.
 
-> No escribo código desde cero: le doy el trabajo pesado a la IA. **Herramientas, lógica y resultados** — eso sí lo entiendo perfecto.
-
-<div align="center">
-
-![Español](https://img.shields.io/badge/Espa%C3%B1ol-Nativo-7b2ff7?style=for-the-badge)
-![Inglés técnico](https://img.shields.io/badge/Ingl%C3%A9s%20T%C3%A9cnico-leo%20documentaci%C3%B3n%2C%20papers%20y%20memes-00e5ff?style=for-the-badge)
-
-<sub>Conversación y gramática: en proceso 📖</sub>
-
-</div>
+> No escribo código desde cero: le doy el trabajo pesado a la IA. **Herramientas, lógica y resultados** — eso sí lo entiendo completo.
 
 ---
 
-## 🛠️ Habilidades
+## 💼 Experiencia
 
-<div align="center">
+**Infraestructura y redes — empresa actual** · *9 meses*
 
-<img src="https://skillicons.dev/icons?i=python,docker,postgres,git,linux,bash,regex,vscode,ai" alt="stack" />
+- Instalación y administración de **enlaces inalámbricos punto a punto de hasta 24 km**: configuración, formateo, alineación y administración.
+- Administración de **servidores Linux** de tamaño empresarial medio.
+- **Dashboards empresariales** para reporting operativo.
+- Servicios en la nube sobre **servidor propio**, con **hardening**, acceso por **claves SSH** y **firewall** configurado.
 
-</div>
+**Prácticas — SENA, Redes de Datos**
+
+- Configuración de **VLANs**, LAN/WAN y **TCP/IP**.
+- Soporte físico: cableado estructurado, diagnóstico de fallas y mantenimiento de equipos.
+- Bases de **alta disponibilidad** y **ciberseguridad**.
+
+---
+
+## 🧰 Capacidades
 
 <table align="center">
 <tr>
 <td align="center" width="33%">
 
-![IA Agéntica](https://img.shields.io/badge/IA%20AG%C3%89NTICA-7b2ff7?style=for-the-badge)
+![Redes inalámbricas](https://img.shields.io/badge/REDES%20INAL%C3%81MBRICAS-003893?style=for-the-badge)
 
-**n8n · Agentes LLM · Razonamiento**
-<sub>Agentes que asesoran, deciden y ejecutan solos</sub>
-
-</td>
-<td align="center" width="33%">
-
-![APIs](https://img.shields.io/badge/APIs%20%26%20WEBHOOKS-00e5ff?style=for-the-badge&logoColor=black)
-
-**REST · Integraciones · Automatización**
-<sub>Sistemas que se hablan entre sí sin que yo toque nada</sub>
+**Enlaces punto a punto hasta 24 km**
+<sub>Instalación · alineación · administración</sub>
 
 </td>
 <td align="center" width="33%">
 
-![Bases de Datos](https://img.shields.io/badge/BASES%20DE%20DATOS-ff2d95?style=for-the-badge)
+![Redes](https://img.shields.io/badge/REDES%20Y%20PROTOCOLOS-00e5ff?style=for-the-badge&logoColor=black)
 
-**PostgreSQL · Consultas · Modelado**
-<sub>Datos que responden preguntas en tiempo real</sub>
+**VLAN · LAN/WAN · TCP/IP**
+<sub>Alta disponibilidad</sub>
+
+</td>
+<td align="center" width="33%">
+
+![Servidores](https://img.shields.io/badge/SERVIDORES%20Y%20CLOUD-7b2ff7?style=for-the-badge)
+
+**Linux empresarial · servidor propio**
+<sub>Hardening · SSH por claves · firewall</sub>
 
 </td>
 </tr>
 <tr>
 <td align="center" width="33%">
 
-![Redes](https://img.shields.io/badge/REDES%20DE%20DATOS-003893?style=for-the-badge)
+![IA](https://img.shields.io/badge/IA%20Y%20AUTOMATIZACI%C3%93N-39FF14?style=for-the-badge&logoColor=black)
 
-**VLAN · Routing · Antenas**
-<sub>Todo lo que va por cable y por aire</sub>
-
-</td>
-<td align="center" width="33%">
-
-![Contenedores](https://img.shields.io/badge/CONTENEDORES-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-
-**Docker · n8n self-hosted**
-<sub>Levanto mi propio stack, donde sea</sub>
+**Agentes LLM · n8n · APIs**
+<sub>Docker · Python · PostgreSQL · Git</sub>
 
 </td>
 <td align="center" width="33%">
 
 ![Ciberseguridad](https://img.shields.io/badge/CIBERSEGURIDAD-CE1126?style=for-the-badge)
 
-**Shodan · OSINT · Reconocimiento**
-<sub>3° lugar nacional — SenaSoft</sub>
+**OSINT · Shodan**
+<sub>Ingeniería inversa asistida con IA</sub>
+
+</td>
+<td align="center" width="33%">
+
+![Hardware](https://img.shields.io/badge/HARDWARE%20Y%20SOPORTE-FCD116?style=for-the-badge&logoColor=black)
+
+**Cableado · multímetro · equipos**
+<sub>Linux/Windows · impresoras</sub>
 
 </td>
 </tr>
@@ -155,13 +158,15 @@ Mi bitácora diaria de aprendizaje: TILs, notas y pequeños experimentos. El pod
 
 ---
 
-## 🏆 Logros
+## 🏆 Formación y logros
 
 <div align="center">
 
+![Tecnólogo](https://img.shields.io/badge/TECN%C3%93LOGO-Redes%20de%20Datos%20%C2%B7%20SENA-003893?style=for-the-badge)
+![Graduado](https://img.shields.io/badge/GRADUADO-01%20SEP%202026-7b2ff7?style=for-the-badge)
 ![3° Nacional](https://img.shields.io/badge/3%C2%B0%20NACIONAL-Ciberseguridad%20%C2%B7%20SenaSoft-FCD116?style=for-the-badge&logoColor=black)
-![Graduado](https://img.shields.io/badge/GRADUADO-01%20SEP%202026-003893?style=for-the-badge)
-![Tecnólogo](https://img.shields.io/badge/TECN%C3%93LOGO-Redes%20de%20Datos-CE1126?style=for-the-badge)
+
+<sub>Inglés técnico en progreso: leo documentación, repos y artículos; practicando conversación 📖</sub>
 
 </div>
 
@@ -209,11 +214,11 @@ Mi bitácora diaria de aprendizaje: TILs, notas y pequeños experimentos. El pod
 <div align="center">
 
 [![Email](https://img.shields.io/badge/pardojulian189%40gmail.com-D14D3B?style=for-the-badge&logo=gmail&logoColor=white)](mailto:pardojulian189@gmail.com)
-[![GitHub](https://img.shields.io/badge/p4Rd0x--zuD-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/p4Rd0x-zuD)
+[![Portafolio](https://img.shields.io/badge/p4rd0x--zud.github.io-7b2ff7?style=for-the-badge&logo=googlechrome&logoColor=white)](https://p4rd0x-zud.github.io)
 
 <br/>
 
-*"En redes aprendes que todo paquete llega a destino. En IA aprendes que todo proceso puede pensar."*
+*Abierto a oportunidades en redes, infraestructura y automatización con IA.*
 
 <br/>
 
