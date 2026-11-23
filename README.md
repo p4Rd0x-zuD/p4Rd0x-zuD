@@ -19,6 +19,7 @@
 [![Email](https://img.shields.io/badge/Email-D14D3B?style=for-the-badge&logo=gmail&logoColor=white)](mailto:pardojulian189@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-p4Rd0x--zuD-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/p4Rd0x-zuD)
 [![Portafolio](https://img.shields.io/badge/PORTAFOLIO-7b2ff7?style=for-the-badge&logo=googlechrome&logoColor=white)](https://p4rd0x-zud.github.io)
+[![CV](https://img.shields.io/badge/CV-DESCARGA%20PDF-111827?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://p4rd0x-zud.github.io/assets/CV-Julian-Andres-Pardo-Hurtado.pdf)
 [![English](https://img.shields.io/badge/ENGLISH%20VERSION-00e5ff?style=for-the-badge&logoColor=black)](README.en.md)
 
 </div>
