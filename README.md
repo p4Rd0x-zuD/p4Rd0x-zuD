@@ -21,7 +21,7 @@
 
 Trabajo en redes e infraestructura —enlaces inalámbricos de hasta **24 km**, servidores Linux y servicios en la nube— y automatizo procesos con IA.
 
-**Ahora:** Soporte TI / Técnico de Redes Junior en Terrazas Agropecuarias · 9 meses.
+**Ahora:** Soporte TI / Técnico de Redes Junior · 9 meses.
 
 ### 🧰 Capacidades
 
